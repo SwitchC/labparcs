@@ -8,7 +8,7 @@ public class PI {
         AMInfo info = new AMInfo(curtask, null);
         point[] p = new point[8];
         channel[] c = new channel[8];
-        int n=2;
+        int n=100;
         double step=1.0/n;
         double x=0;
         for (int i=0; i<n; i++) {
