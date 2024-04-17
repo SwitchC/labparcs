@@ -1,7 +1,7 @@
 import parcs.*;
 public class Integrator implements AM{
     public double integrate(double a,double b){
-        double step = 4.9E-324;
+        double step = 4.9E-322;
         double sum = 0;
         double x1 = a;
         while (x1 < b) {
