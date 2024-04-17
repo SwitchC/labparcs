@@ -2,8 +2,10 @@ import parcs.*;
 public class Integrator implements AM{
     public double integrate(double a,double b){
         double sum=0;
+        int t=0;
         for(int i=0;i<=5000;i++){
         double step=4.0E-324;
+        t++;
         sum=0;
         double x1=a;
         while(x1<b){
