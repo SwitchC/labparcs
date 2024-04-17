@@ -2,7 +2,7 @@ import parcs.*;
 public class Integrator implements AM{
     public double integrate(double a,double b){
         double sum=0;
-        for(int i=0;i<=6;i++){
+        for(int i=0;i<=50;i++){
         double step=4.0E-324;
         sum=0;
         double x1=a;
