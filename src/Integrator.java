@@ -4,11 +4,9 @@ public class Integrator implements AM{
         double step = 4.9E-324;
         double sum = 0;
         double x1 = a;
-        for(int i=0;i<10000;i++) {
-            while (x1 < b) {
-                sum += ((function(x1) + function(x1 + step)) * step) / 2;
-                x1 += step;
-            }
+        while (x1 < b) {
+            sum += ((function(x1) + function(x1 + step)) * step) / 2;
+            x1 += step;
         }
         return sum;
     }

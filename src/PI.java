@@ -6,7 +6,7 @@ public class PI {
         curtask.addJarFile("Pi.jar");
 
         AMInfo info = new AMInfo(curtask, null);
-        int n=8;
+        int n=2;
         point[] p = new point[n];
         channel[] c = new channel[n];
         double step=1.0/n;
