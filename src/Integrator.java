@@ -3,7 +3,7 @@ public class Integrator implements AM{
     public double integrate(double a,double b){
         double sum=0;
         int t=0;
-        double step=4.0E-324;
+        double step=0.0001;
         sum=0;
         double x1=a;
         while(x1<b){
